@@ -1,0 +1,32 @@
+
+Comandos
+gitclone https://github.com/daniel-abella/curso-git.git
+
+Comandos para Sinalizar Códigos que Quero Enviar
+gitadd*
+gitaddarquivo1.txt
+
+Comandos para Enviar para o Servidor LOCAL
+gitcommit–m “Enviando o arquivo1.txt”
+
+Comandos para Enviar para o Servidor REMOTO
+gitpush
+
+Comandos p/ Receber Novidades do Servidor Remoto
+gitpull
+
+
+git clone https://github.com/daniel-abella/cursogit.git
+Clona tudo que está no servidor remote para minha máquina,
+onde: daniel-abella se refere ao meu usuário no Github e cursogit se refere ao meu repositório
+criado no Github 
+git status O que falta enviar para o
+repositório local 
+git add * Sinaliza que todos os arquivos
+novos ou modificados devem ser enviados ao repositório local
+git add arquivo1.txt Sinaliza que apenas o arquivo1.txt deve ser enviado ao
+repositório local, demais arquivos são ignotados 
+git commit –m “Msg” Envia para o repositório local os
+arquivos sinalizados e enviado a “Msg” como mensagem descrevendo
+git push Envia para o repositório remoto o que você tinha enviado
+localmente
